@@ -1,0 +1,76 @@
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    margin: 0;
+    background: #0E3D67;
+    color: #000;
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.2rem;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.calculator{
+    background-color: #0c0b0bdf;
+    padding: 40px;
+    border-radius: 2%;
+    height: 100%;
+}
+#screen{
+    width: 369px;
+    height: 85px;
+    padding: 1px 5px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    background-color: #263238;
+    color: rgb(132, 125, 125);
+    font-size: 50px;
+    margin: 5px;
+    
+}
+
+table{
+    margin-top: 25px;
+}
+
+button{
+    border-radius: 5px;
+    font-size: 40px;
+    display: inline-block;
+    width: 80px;
+    cursor: pointer;
+    height: 60px;
+    margin: 6px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: 600;
+    background-color: #505354;
+    border:2px solid #1b1f21;
+}
+
+button:active {
+  background-color: #3f423f;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+button:hover{
+  background-color: #1b1f21;
+  color: #e3e2e2;
+  border-top: 2px solid #263238;
+  border-right: 2px solid #263238;
+  border-bottom: 3px solid #263238;
+  border-left: 3px solid #263238;
+}

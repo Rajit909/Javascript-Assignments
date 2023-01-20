@@ -1,0 +1,94 @@
+html{
+    font-size: 62.2%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    line-height: 1rem;
+    letter-spacing: 0.8rem;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    font-size: 1.4rem;
+    background-color: #FFA500;
+    height: 100vh;
+    width: 100vw;
+}
+
+.clock-input{
+    clear: both;
+    text-align: center;
+    max-width: 250px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #FE8161;
+    margin: 0 auto 90px;
+}
+
+input #time-to{
+    padding: 5px;
+    border: 0;
+    border-radius: 3px;
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #066dcd;
+    background-color: #ffffff;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 60rem;
+    background-color: transparent;
+    border-radius: 3px;
+    box-shadow: none;
+  }
+  
+  .clock-column {
+    margin-right: 7rem;
+    text-align: center;
+    position: relative;
+    background-color: #FE8161;
+    min-height: 50px;
+    min-width: 150px;
+    border-radius: 5px;
+  }
+  .clock-column::after {
+    content: ":";
+    display: block;
+    height: 0.25rem;
+    width: 0.25rem;
+    font-size: 55px;
+    font-weight: 200;
+    color: #feffff;
+    position: absolute;
+    top: 60px;
+    right: -25px;
+  }
+  .clock-column:last-child::after {
+    display: none;
+  }
+
+  .clock-label {
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: #131313;
+    font-size: 10px;
+    text-align: center;
+    border-top: 2px solid rgba(4, 5, 5, 0.989);
+  }
+  
+  .clock-timer {
+    color: #131313;
+    font-size: 46px;
+    line-height: 1;
+  }
+  
