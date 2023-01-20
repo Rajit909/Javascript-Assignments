@@ -16,19 +16,15 @@
 ![image](https://img.shields.io/badge/Full%20stack%20JS%20bootcamp-Hitesh%20Chaudhary-lightgrey)
 
 
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss1.png)
+![image](https://github.com/Rajit909/Javascript-Assignments/blob/master/todoList/images/img1.png)
 
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss2.png)
+![image](https://github.com/Rajit909/Javascript-Assignments/blob/master/todoList/images/img2.png)
 
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss3.png)
+![image](https://github.com/Rajit909/Javascript-Assignments/blob/master/todoList/images/img3.png)
 
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss4.png)
+![image](https://github.com/Rajit909/Javascript-Assignments/blob/master/todoList/images/img4.png)
 
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss5.png)
+![image](https://github.com/Rajit909/Javascript-Assignments/blob/master/todoList/images/img5.png)
 
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss6.png)
-
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss7.png)
-
-![image](https://github.com/Rajit909/shopify-clone/blob/main/images/ss8.png)
+![image](https://github.com/Rajit909/Javascript-Assignments/blob/master/todoList/images/img6.png)
 
