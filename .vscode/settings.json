@@ -1,0 +1,7 @@
+{
+    "vsintellicode.modify.editor.suggestSelection": "enabled",
+    "editor.roundedSelection": true,
+    "editor.selectionHighlight": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.find.cursorMoveOnType": true
+}

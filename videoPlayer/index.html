@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>How to build a video player in Javascript</h1>
+    <div class="player">
+        <video class="video-container" controls>
+            <source
+                src="https://ftp.f1nalboss.de/data/imgly/videoplayer/testvid.mp4"
+                type="video/mp4"
+            />
+            <source
+                src="https://ftp.f1nalboss.de/data/imgly/videoplayer/testvid.mp4"
+                type="video/webm"
+            />
+            <p>No HTML5 video supported</p>
+        </video>
+        <div class="controls">
+            <div class="progress">
+                <div class="progress__filled"></div>
+            </div>
+            <button class="controls__btn playPauseBtn" title="Toggle Play">
+                ►
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
