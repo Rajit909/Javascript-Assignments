@@ -125,6 +125,12 @@ function skipAhead(event) {
 // updateVolume updates the video's volume
 // and disables the muted state if active
 
+function updateVolume(){
+  if (video.muted) {
+    video.muted = false
+  }
+  video.volume = volume.value
+}
 
 // updateVolumeIcon updates the volume icon so that it correctly reflects
 // the volume of the video
