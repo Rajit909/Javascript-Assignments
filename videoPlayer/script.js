@@ -40,6 +40,7 @@ function togglePlay() {
   }
 }
 
+
 // updatePlayButton updates the playback icon and tooltip
 // depending on the playback state
 function updatePlayButton() {
