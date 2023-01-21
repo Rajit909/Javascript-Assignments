@@ -88,6 +88,7 @@ function updateTimeElapsed() {
 
 // updateProgress indicates how far through the video
 // the current playback is by updating the progress bar
+
 function updateProgress() {
   seek.value = Math.floor(video.currentTime);
   progressBar.value = Math.floor(video.currentTime);
