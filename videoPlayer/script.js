@@ -79,6 +79,7 @@ function initializeVideo() {
 
 // updateTimeElapsed indicates how far through the video
 // the current playback is by updating the timeElapsed element
+
 function updateTimeElapsed() {
   const time = formatTime(Math.round(video.currentTime));
   timeElapsed.innerText = `${time.minutes}:${time.seconds}`;
