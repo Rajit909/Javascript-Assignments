@@ -67,6 +67,7 @@ function formatTime(timeInSeconds) {
 
 // initializeVideo sets the video duration, and maximum value of the
 // progressBar
+
 function initializeVideo() {
   const videoDuration = Math.round(video.duration);
   seek.setAttribute('max', videoDuration);
