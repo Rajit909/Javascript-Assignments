@@ -97,6 +97,7 @@ function updateProgress() {
 // updateSeekTooltip uses the position of the mouse on the progress bar to
 // roughly work out what point in the video the user will skip to if
 // the progress bar is clicked at that point
+
 function updateSeekTooltip(event) {
   const skipTo = Math.round(
     (event.offsetX / event.target.clientWidth) *
